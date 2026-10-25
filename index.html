@@ -1,0 +1,372 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050711">
+  <meta name="description" content="Portofolio personal Muhammad Rifki Hamdani, Junior Developer.">
+  <title>Rifki Hamdani | Cosmic Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Background luar angkasa -->
+  <div class="space-background" aria-hidden="true">
+    <div class="nebula nebula-one"></div>
+    <div class="nebula nebula-two"></div>
+    <div id="stars"></div>
+    <div class="shooting-star"></div>
+  </div>
+
+  <!-- Navbar melayang -->
+  <header class="navbar">
+    <a href="#home" class="logo">
+      <span class="logo-icon">R</span>
+      <span>RIFKI<span class="blue-text">.DEV</span></span>
+    </a>
+
+    
+<a href="#home" class="nav-link active">Beranda</a>
+<a href="#about" class="nav-link">Tentang</a>
+<a href="#thanks" class="nav-link">Terima Kasih</a>
+<a href="#contact" class="nav-link">Kontak</a>
+
+
+    <div class="nav-actions">
+      <button id="themeToggle" class="theme-btn"
+        aria-label="Ganti tema" title="Ganti tema">
+        ☀
+      </button>
+
+      <button id="menuToggle" class="menu-btn"
+        aria-label="Buka menu" aria-expanded="false">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO / BERANDA -->
+    <section id="home" class="hero section">
+      <div class="hero-content">
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          <span>WELCOME TO MY UNIVERSE</span>
+        </div>
+
+        <p class="hero-greeting">Halo, dunia! Saya</p>
+
+        <h1 class="hero-title">
+          Muhammad Rifki<br>
+          <span class="name-highlight">Hamdani.</span>
+        </h1>
+
+        <h2 class="role-line">
+          Saya seorang <span id="typingText" class="blue-text"></span>
+          <span class="cursor">|</span>
+        </h2>
+
+        <p class="hero-description">
+          Pelajar RPL yang tertarik dengan dunia pemrograman,
+          desain antarmuka, dan teknologi. Saya terus belajar
+          untuk mengubah ide menjadi karya digital.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Jelajahi Projek <span>↗</span>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            Hubungi Saya
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <span class="social-label">EXPLORE MY WORLD</span>
+          <span class="social-line"></span>
+          <a href="#about" aria-label="Tentang saya">ABOUT</a>
+          <a href="#projects" aria-label="Projek saya">WORKS</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="planet-glow"></div>
+
+        <div class="planet">
+          <div class="planet-ring"></div>
+          <div class="planet-surface"></div>
+        </div>
+
+        <div class="floating-card card-top">
+          <span class="mini-icon">✦</span>
+          <div>
+            <strong>Creative Mind</strong>
+            <small>Always learning</small>
+          </div>
+        </div>
+
+        <div class="floating-card card-bottom">
+          <span class="code-icon">&lt;/&gt;</span>
+          <div>
+            <strong>Code & Create</strong>
+            <small>Turning ideas into reality</small>
+          </div>
+        </div>
+
+        <span class="space-cross cross-one">✦</span>
+        <span class="space-cross cross-two">✧</span>
+        <span class="space-cross cross-three">✦</span>
+      </div>
+
+      <a href="#about" class="scroll-indicator">
+        <span class="mouse-icon"></span>
+        <span>SCROLL TO EXPLORE</span>
+      </a>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="about" class="section about-section">
+      <div class="section-heading">
+        <span class="section-label">01 / WHO AM I?</span>
+        <h2>Tentang <span class="blue-text">Saya</span></h2>
+        <p>Mengenal orang di balik barisan kode.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="profile-wrap">
+          <div class="profile-glow"></div>
+          <div class="profile-frame">
+            <img
+              src="foto komputer.jpeg"
+              alt="Foto profil Muhammad Rifki Hamdani"
+              class="profile-img"
+              onerror="this.style.display='none';
+                this.nextElementSibling.style.display='flex';"
+            >
+            <div class="profile-placeholder">
+              <span>RH</span>
+              <small>YOUR PHOTO HERE</small>
+            </div>
+          </div>
+          <div class="profile-caption">
+            <span class="status-dot"></span>
+            Open to learning
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="about-tag">STUDENT • DEVELOPER IN PROGRESS</span>
+
+          <h3>Membangun masa depan,<br>
+            <span class="blue-text">satu baris kode</span> setiap hari.</h3>
+
+          <p>
+            Halo! Saya Muhammad Rifki Hamdani, pelajar smk jurusan
+            Rekayasa Perangkat Lunak (RPL).
+            Saya sedang mengembangkan kemampuan dalam membuat
+            aplikasi dan website.
+          </p>
+
+          <p>
+            Saya senang mencoba hal baru, memecahkan masalah,
+            serta memadukan kreativitas dan teknologi untuk
+            menghasilkan karya yang bermanfaat.
+          </p>
+
+          <div class="skills">
+            <span class="skill-chip">HTML</span>
+            <span class="skill-chip">CSS</span>
+            <span class="skill-chip">JavaScript</span>
+            <span class="skill-chip">Python</span>
+            <span class="skill-chip">UI/UX Design</span>
+          </div>
+
+          <a href="#contact" class="text-link">
+            Mari terhubung <span>→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATISTIK -->
+    <section class="section stats-section">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-icon">⌘</span>
+          <strong class="stat-number" data-target="3">0</strong>
+          <span class="stat-title">Projek Contoh</span>
+          <small>Project portfolio</small>
+        </div>
+
+        <div class="stat-card">
+          <span class="stat-icon">{"{}"}</span>
+          <strong class="stat-number" data-target="4">0</strong>
+          <span class="stat-title">Teknologi</span>
+          <small>Yang sedang dipelajari</small>
+        </div>
+
+        <div class="stat-card">
+          <span class="stat-icon">✦</span>
+          <strong class="stat-number" data-target="100">0</strong>
+          <span class="stat-title">Semangat</span>
+          <small>Untuk terus berkembang (%)</small>
+        </div>
+      </div>
+      <p class="stats-note">
+        *Statistik ini merupakan contoh awal dan dapat kamu sesuaikan.
+      </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects-section">
+      <div class="section-heading">
+        <span class="section-label">02 / SELECTED WORKS</span>
+        <h2>Projek <span class="blue-text">Pilihan</span></h2>
+        <p>Beberapa karya latihan dalam perjalanan belajar saya.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-art art-python">
+            <span class="art-symbol">Py</span>
+            <span class="art-orbit"></span>
+            <span class="project-category">PYTHON</span>
+          </div>
+          <div class="project-info">
+            <div class="project-number">PROJECT_01</div>
+            <h3>ATM Python</h3>
+            <p>
+              Simulasi ATM sederhana dengan fitur cek saldo,
+              setor tunai, tarik tunai, dan menu transaksi.
+            </p>
+            <div class="project-tags">
+              <span>Python</span><span>Logic</span>
+            </div>
+            <a href="#contact" class="project-link">
+              Lihat Detail <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art art-cashier">
+            <span class="cashier-symbol">Rp</span>
+            <span class="art-orbit"></span>
+            <span class="project-category">APPLICATION</span>
+          </div>
+          <div class="project-info">
+            <div class="project-number">PROJECT_02</div>
+            <h3>Mini Kasir</h3>
+            <p>
+              Aplikasi kasir latihan untuk memasukkan barang,
+              menghitung total belanja, dan menampilkan transaksi.
+            </p>
+            <div class="project-tags">
+              <span>Java</span><span>Scanner</span>
+            </div>
+            <a href="#contact" class="project-link">
+              Lihat Detail <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art art-web">
+            <span class="web-symbol">&lt;/&gt;</span>
+            <span class="art-orbit"></span>
+            <span class="project-category">WEB DESIGN</span>
+          </div>
+          <div class="project-info">
+            <div class="project-number">PROJECT_03</div>
+            <h3>Cosmic Portfolio</h3>
+            <p>
+              Website portofolio responsif dengan animasi,
+              efek luar angkasa, dan interaksi JavaScript.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+            <a href="#home" class="project-link">
+              Lihat Website <span>↗</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="contact-card">
+        <span class="section-label">03 / GET IN TOUCH</span>
+        <div class="contact-decoration">✦</div>
+
+        <section id="thanks" class="section thanks-section">
+  <div class="thanks-content">
+    <span class="section-label">03 / THANK YOU</span>
+
+    <h2 class="thanks-title">
+      Terimakasih sudah<br>
+      mengunjungi web ini,
+      <span class="thanks-highlight">semoga kalian senang</span>
+    </h2>
+
+    <p class="web-credit">Web by Hamdani</p>
+  </div>
+</section>
+
+        <!-- Ganti alamat email dengan email milikmu -->
+        
+<section id="contact" class="section contact-section">
+  <div class="contact-card contact-details">
+    <span class="section-label">04 / CONTACT ME</span>
+
+    <h2 class="contact-title">📞 Kontak</h2>
+
+    <p class="contact-subtitle">
+      Temukan informasi kontak saya di bawah ini.
+    </p>
+
+    <div class="contact-list">
+
+      <div class="contact-item">
+        <span class="contact-emoji">🏠</span>
+        <div class="contact-info">
+          <h3>Alamat</h3>
+          <p>Isi alamat kamu di sini</p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <span class="contact-emoji">✉️</span>
+        <div class="contact-info">
+          <h3>Gmail</h3>
+          <p>
+            <a href="mailto:emailkamu@example.com">
+              emailkamu@example.com
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <span class="contact-emoji">📞</span>
+        <div class="contact-info">
+          <h3>Nomor Telepon</h3>
+          <p>
+            <a href="tel:+6281234567890">
+              081234567890
+            </a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="web-credit">Web by Hamdani</p>
+  </div>
+</section>
